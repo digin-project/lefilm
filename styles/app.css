@@ -169,3 +169,32 @@ nav.sub-nav ul > li > a > i { margin-left: 5px; }
     background-color: #fff;
     color: #000;
 }
+
+/**
+ * Load more
+ */
+#load-more {
+    width: 100%;
+    height: 50px;
+    position: relative;
+    margin-top: 20px;
+    background-color: rgba(0,0,0,.1);
+}
+
+#load-more button {
+    width: 200px;
+    height: 50px;
+    border: none;
+    color: #b9352a;
+    text-align: center;
+    line-height: 50px;
+    font-size: 14px;
+    background: transparent;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+}
+
+#load-more button i { margin-right: 20px; }
