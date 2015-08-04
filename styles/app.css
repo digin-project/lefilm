@@ -79,3 +79,25 @@ nav.sub-nav ul > li > a > i { margin-left: 5px; }
 .navbar-search input::-webkit-input-placeholder {
     color: #fff;
 }
+
+/**
+ * Grid
+ */
+
+.row-film {
+    padding: 20px 0;
+}
+
+.film-container {
+    width: 100%;
+}
+
+.film-wrapper {
+    width: 200px;
+    height: 300px;
+    margin: 0 auto;
+    background-image: url("/images/dummy/interstellar.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
