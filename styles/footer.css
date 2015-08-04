@@ -1,15 +1,88 @@
 footer {
 	background-color: #b9352a;
 	color : white;
+	padding: 0 45px;
 }
 
 footer .top-footer {
-	padding : 40px 0;
+	padding : 20px 0;
 	border-bottom: 1px solid rgba(255,255,255,0.2);
 }
+footer .top-footer .social a{
+	color : rgba(255,255,255,0.4);
+	font-size: 1.5em;
+	float: right;
+	margin-left: 15px;
+	-webkit-transition: color 1s;
+    transition: color 1s;
+}
+footer .top-footer .social a:hover{
+	color : rgba(255,255,255,1);
+	-webkit-transition: color 1s;
+    transition: color 1s;
+}
+footer .top-footer .social a.fb:hover{
+	color : #3B5998;
+}
+footer .top-footer .social a.tw:hover{
+	color : #00C0F7;
+}
+
 
 footer .in-this-time {
-	padding : 40px 0;
+	padding : 20px 0;
 	border-bottom: 1px solid rgba(255,255,255,0.2);	
 }
+
+footer .in-this-time h3 {
+	color : rgba(255,255,255,0.2);
+}
+
+footer .in-this-time ul {
+	list-style: none;
+	padding-left: 0;
+	margin-top: 0;
+}
+footer .in-this-time ul li a {
+	color: white;
+}
+footer .program {
+	padding : 20px 0;
+	border-bottom: 1px solid rgba(255,255,255,0.2);	
+}
+footer .program h4 {
+	float : left;
+
+}
+footer .program ul {
+	list-style: none;
+	padding-left: 0;
+	margin-top : 19px;
+	margin-left: 15px;
+	float : left;
+}
+footer .program ul li {
+	float : left;
+	margin-right: 15px;
+}
+footer .program ul li a {
+	color : white;
+}
+footer .bottom-footer {
+	padding : 20px 0;
+}
+footer .bottom-footer ul {
+	list-style: none;
+	padding-left: 0;
+	margin-top : 19px;
+	float : left;
+}
+footer .bottom-footer ul li {
+	float : left;
+	margin-right: 40px;
+}
+footer .bottom-footer ul li a {
+	color : white;
+}
+
 
