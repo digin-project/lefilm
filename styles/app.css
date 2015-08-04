@@ -6,10 +6,36 @@ html, body {
 
 }
 
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+button, input, button:focus, button:active, input:focus { outline: none; }
+
 /**
  * Bootstrap override
  */
- 
-.navbar.navbar-default {
 
+.navbar.navbar-default {
+    padding: 15px 45px;
+    border: none;
+    margin: 0;
+    background-color: #fff;
 }
+
+.navbar-default .navbar-nav > li > a {
+    color: #000;
+}
+
+nav.sub-nav {
+    width: 100%;
+    padding: 15px 20px;
+    background-color: #b9352a;
+}
+
+nav.sub-nav ul > li > a { color: #fff; }
+nav.sub-nav ul > li > a:hover,
+nav.sub-nav ul > li > a:focus,
+nav.sub-nav ul > li > a:visited,
+nav.sub-nav ul > li > a:active { background-color: transparent; }
