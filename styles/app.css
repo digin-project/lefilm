@@ -27,7 +27,6 @@ button, input, button:focus, button:active, input:focus { outline: none; }
 
 .container-fluid {
     max-width: 1400px;
-    padding: 0;
 }
 
 .navbar.navbar-default {
@@ -54,12 +53,17 @@ nav.sub-nav {
 
 nav.sub-nav ul { margin-left: -10px; }
 
-nav.sub-nav ul > li > a { color: #fff; }
+nav.sub-nav ul > li > a {
+    color: rgba(255,255,255,0.8);
+    transition: color 1s;
+}
 nav.sub-nav ul > li > a:hover,
 nav.sub-nav ul > li > a:focus,
 nav.sub-nav ul > li > a:visited,
 nav.sub-nav ul > li > a:active { background-color: transparent; }
 nav.sub-nav ul > li > a > i { margin-left: 5px; }
+
+nav.sub-nav ul > li > a:hover { color: #fff; text-decoration: underline; }
 
 .nav.navbar-search {
     padding: 10px 20px 0 10px;
@@ -68,6 +72,7 @@ nav.sub-nav ul > li > a > i { margin-left: 5px; }
 .navbar-search label {
     display: block;
     float: left;
+    cursor: pointer;
 }
 
 .navbar-search label i { font-size: 24px; margin-right: 10px; }
