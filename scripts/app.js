@@ -4,9 +4,10 @@ $(document).ready(function() {
      * Grid
      */
 
-    $('.film-container').hover(function() {
-        var infos = $(this).children('.film-infos');
-        infos.show();
+    $('.film-wrapper').hover(function() {
+        $(this).children('.film-infos').addClass('show');
+    }, function() {
+        $(this).children('.film-infos').removeClass('show');
     });
 
 });

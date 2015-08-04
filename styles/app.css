@@ -86,6 +86,16 @@ nav.sub-nav ul > li > a > i { margin-left: 5px; }
  * Grid
  */
 
+@-webkit-keyframes appear {
+    from {
+        opacity: 0;
+        transform: translate3d(0, 40px, 0);
+    } to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
 .row-film {
     padding: 20px 0;
 }
@@ -99,24 +109,30 @@ nav.sub-nav ul > li > a > i { margin-left: 5px; }
     width: 200px;
     height: 300px;
     margin: 0 auto;
-    background-image: url("/images/dummy/interstellar.png");
+    background-image: url("/images/dummy/oblivion.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    transform: translate3d(0,0,0);
+    -webkit-animation: appear 400ms ease-out;
 }
 
 .film-infos {
-    display: block;
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0,0,0,.5);
+    background-color: rgba(0,0,0,.6);
     padding: 20px;
     overflow: hidden;
+    opacity: 0;
+    transition: opacity 200ms ease-out;
+    cursor: pointer;
 }
+
+.film-infos.show { opacity: 1; }
 
 .film-infos h2 {
     color: #fff;
