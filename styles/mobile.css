@@ -1,0 +1,8 @@
+@media screen and (max-width: 640px) {
+    .navbar-brand { margin-left: 15px !important; }
+
+    .row.row-film { padding: 0; }
+    .film { margin: 20px 0; }
+    .film:first-child { margin-bottom: 20px; }
+    .film:last-child { margin-top: 20px; }
+}
