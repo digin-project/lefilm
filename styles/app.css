@@ -36,6 +36,13 @@ button, input, button:focus, button:active, input:focus { outline: none; }
     background-color: #fff;
 }
 
+.navbar-default .navbar-toggle,
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: transparent;
+    border: none;
+}
+.navbar-default .navbar-toggle .icon-bar { background-color: #b9352a; }
+
 .navbar-brand {
     margin-left: 0 !important;
     padding: 5px 0;
