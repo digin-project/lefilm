@@ -26,7 +26,7 @@ button, input, button:focus, button:active, input:focus { outline: none; }
  */
 
 .container-fluid {
-    max-width: 1400px;
+    max-width: 1300px;
 }
 
 .navbar.navbar-default {
@@ -66,7 +66,7 @@ nav.sub-nav ul > li > a > i { margin-left: 5px; }
 nav.sub-nav ul > li > a:hover { color: #fff; text-decoration: underline; }
 
 .nav.navbar-search {
-    padding: 10px 20px 0 10px;
+    padding: 10px 0 0 10px;
 }
 
 .navbar-search label {
