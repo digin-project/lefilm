@@ -389,7 +389,8 @@
     "dropdowns.less"
   ],
   "js": [
-    "dropdown.js"
+    "dropdown.js",
+    "collapse.js"
   ],
-  "customizerUrl": "http://getbootstrap.com/customize/?id=7f0c12ad6596741177b8"
+  "customizerUrl": "http://getbootstrap.com/customize/?id=c42145334f71e5370763"
 }
