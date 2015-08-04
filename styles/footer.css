@@ -3,6 +3,16 @@ footer {
 	color : white;
 	padding: 0 45px;
 }
+footer a {
+	color : rgba(255,255,255,0.8);
+	-webkit-transition: color 1s;
+    transition: color 1s;
+}
+footer a:hover {
+	color : white;
+	-webkit-transition: color 1s;
+    transition: color 1s;
+}
 
 footer .top-footer {
 	padding : 20px 0;
@@ -43,9 +53,6 @@ footer .in-this-time ul {
 	padding-left: 0;
 	margin-top: 0;
 }
-footer .in-this-time ul li a {
-	color: white;
-}
 footer .program {
 	padding : 20px 0;
 	border-bottom: 1px solid rgba(255,255,255,0.2);	
@@ -57,16 +64,13 @@ footer .program h4 {
 footer .program ul {
 	list-style: none;
 	padding-left: 0;
-	margin-top : 19px;
+	margin-top : 16px;
 	margin-left: 15px;
 	float : left;
 }
 footer .program ul li {
 	float : left;
 	margin-right: 15px;
-}
-footer .program ul li a {
-	color : white;
 }
 footer .bottom-footer {
 	padding : 20px 0;
@@ -81,8 +85,7 @@ footer .bottom-footer ul li {
 	float : left;
 	margin-right: 40px;
 }
-footer .bottom-footer ul li a {
-	color : white;
+
+footer .bottom-footer > div > a {
+	margin-left: 15px;
 }
-
-
