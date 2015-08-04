@@ -92,6 +92,7 @@ nav.sub-nav ul > li > a > i { margin-left: 5px; }
 
 .film-container {
     width: 100%;
+    position: relative;
 }
 
 .film-wrapper {
@@ -102,4 +103,53 @@ nav.sub-nav ul > li > a > i { margin-left: 5px; }
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
+}
+
+.film-infos {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,.5);
+    padding: 20px;
+    overflow: hidden;
+}
+
+.film-infos h2 {
+    color: #fff;
+    font-weight: 500;
+    margin: 0 0 5px 0;
+}
+
+.film-infos span {
+    color: rgba(255,255,255,.8);
+    margin-right: 5px;
+}
+
+.film-infos span:last-child { margin-right: 0; }
+
+.film-play {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.film-play button {
+    background: transparent;
+    color: #fff;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 2px solid rgba(255,255,255,.8);
+    text-align: center;
+    line-height: 30px;
+    transition: all 200ms ease-in;
+}
+
+.film-play button:hover {
+    background-color: #fff;
+    color: #000;
 }
