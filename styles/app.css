@@ -50,6 +50,8 @@ button, input, button:focus, button:active, input:focus { outline: none; }
     margin-bottom: 0;
 }
 
+.toggle-burger { cursor: pointer; }
+
 .toggle-burger > span{
     color: #fff;
     position: relative;
@@ -80,6 +82,7 @@ nav.sub-nav {
     width: 100%;
     padding: 15px 20px;
     background-color: #b9352a;
+    cursor: pointer;
 }
 
 nav.sub-nav ul { margin-left: -10px; }
