@@ -259,3 +259,7 @@ nav.sub-nav li:last-child { margin-right: 0; }
 }
 
 #load-more button i { margin-right: 20px; }
+
+.clear {
+    clear: both;
+}
