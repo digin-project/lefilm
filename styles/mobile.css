@@ -5,6 +5,16 @@
     .film:last-child { margin-top: 20px; }
 }
 
+@media screen and (max-width: 770px) {
+    .toggle-burger > span { display: inline; }
+    .navbar-search > div { width: 100%; }
+    .navbar-brand { margin-left: 15px !important; }
+    .nav.navbar-search input[type="search"] {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
 @media screen and (max-width: 640px) {
     .navbar-brand { margin-left: 15px !important; }
     nav.sub-nav { padding: 0 0 10px 0; }

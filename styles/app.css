@@ -55,11 +55,14 @@ button, input, button:focus, button:active, input:focus { outline: none; }
     position: relative;
     font-size: 14px;
     top: 15px;
+    display: none;
+    float: left;
 }
 
 .navbar-collapse.in {
     padding: 20px 0;
     overflow: hidden;
+    clear: both;
 }
 
 .navbar-brand {
