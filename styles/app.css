@@ -41,7 +41,14 @@ button, input, button:focus, button:active, input:focus { outline: none; }
     background-color: transparent;
     border: none;
 }
-.navbar-default .navbar-toggle .icon-bar { background-color: #b9352a; }
+.navbar-default .navbar-toggle .icon-bar,
+.navbar-toggle .icon-bar { background-color: #fff; }
+
+.navbar-toggle.burger {
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 0;
+}
 
 .navbar-brand {
     margin-left: 0 !important;

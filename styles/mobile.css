@@ -21,6 +21,13 @@
     .film:last-child { margin-top: 20px; }
 
     .film-wrapper {
+        width: 200px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .film-wrapper {
         width: 150px;
         height: 250px;
     }
