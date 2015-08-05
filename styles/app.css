@@ -50,6 +50,18 @@ button, input, button:focus, button:active, input:focus { outline: none; }
     margin-bottom: 0;
 }
 
+.toggle-burger > span{
+    color: #fff;
+    position: relative;
+    font-size: 14px;
+    top: 15px;
+}
+
+.navbar-collapse.in {
+    padding: 20px 0;
+    overflow: hidden;
+}
+
 .navbar-brand {
     margin-left: 0 !important;
     padding: 5px 0;
@@ -126,9 +138,10 @@ nav.sub-nav ul > li > a:hover { color: #fff; text-decoration: underline; }
 }
 
 .row-film {
-    padding: 10px 0;
+    padding: 15px 0;
     -webkit-animation: appear 400ms ease-out;
 }
+
 .row-film:first-child { padding-top: 20px; }
 
 .film-container {
