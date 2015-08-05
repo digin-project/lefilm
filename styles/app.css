@@ -87,6 +87,7 @@ nav.sub-nav ul { margin-left: -10px; }
 nav.sub-nav ul > li > a {
     color: rgba(255,255,255,0.8);
     transition: color 1s;
+    padding:  10px 15px;
 }
 nav.sub-nav ul > li > a:hover,
 nav.sub-nav ul > li > a:focus,
@@ -94,7 +95,17 @@ nav.sub-nav ul > li > a:visited,
 nav.sub-nav ul > li > a:active { background-color: transparent; }
 nav.sub-nav ul > li > a > i { margin-left: 5px; }
 
-nav.sub-nav ul > li > a:hover { color: #fff; text-decoration: underline; }
+nav.sub-nav ul > li > a:hover,
+nav.sub-nav ul > li > a.active {
+    background-color: rgba(255,255,255,.3);
+    border-radius: 5px;
+}
+
+nav.sub-nav li {
+    margin: 0 5px;
+}
+nav.sub-nav li:first-child { margin-left: 0; }
+nav.sub-nav li:last-child { margin-right: 0; }
 
 .nav.navbar-search {
     padding: 10px 0 0 10px;
