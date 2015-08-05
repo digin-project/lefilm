@@ -45,7 +45,7 @@ button, input, button:focus, button:active, input:focus { outline: none; }
 .navbar-toggle .icon-bar { background-color: #fff; }
 
 .navbar-toggle.burger {
-    font-size: 24px;
+    font-size: 15px;
     color: #fff;
     margin-bottom: 0;
 }
@@ -54,7 +54,7 @@ button, input, button:focus, button:active, input:focus { outline: none; }
     color: #fff;
     position: relative;
     font-size: 14px;
-    top: 15px;
+    top: 18px;
     display: none;
     float: left;
 }
