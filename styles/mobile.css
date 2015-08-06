@@ -1,8 +1,15 @@
-@media screen and (max-width: 1200px) {
+@media screen
+    and (min-width: 900px)
+    and (max-width: 1200px) {
     .row.row-film { padding: 0; }
     .film { margin: 20px 0; }
     .film:first-child { margin-bottom: 20px; }
     .film:last-child { margin-top: 20px; }
+
+    .film-wrapper {
+        width: 280px;
+        height: 400px;
+    }
 }
 
 /**
