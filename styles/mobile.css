@@ -5,13 +5,44 @@
     .film:last-child { margin-top: 20px; }
 }
 
-@media screen and (max-width: 770px) {
-    .toggle-burger > span { display: inline; }
-    .navbar-search > div { width: 100%; }
+/**
+ * For iPad landscape
+ */
+@media only screen
+    and (min-device-width: 768px)
+    and (max-device-width: 1048px)
+    and (orientation: landscape)
+    and (-webkit-min-device-pixel-ratio: 1) {
+
+    .film-wrapper {
+        width: 250px;
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 765px) {
     .navbar-brand { margin-left: 15px !important; }
+    .toggle-burger > span { display: inline; }
+
+    .nav.navbar-search {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        padding: 20px;
+        margin: 0;
+    }
+    .nav.navbar-search label {
+        position: absolute;
+        right: 20px;
+        top: 25px;
+    }
+    .navbar-search > div { width: 100%; }
     .nav.navbar-search input[type="search"] {
         width: 100%;
         max-width: 100%;
+        display: none;
+        padding: 10px 25px;
     }
 }
 

@@ -7,6 +7,10 @@ html, body {
     font-weight: 400;
     font-size: 12px;
     line-height: 1.5;
+    -webkit-overflow-scrolling: touch;
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
 }
 
 * {
@@ -124,8 +128,22 @@ nav.sub-nav li:last-child { margin-right: 0; }
 
 .navbar-search > div { float: left; }
 
+#close-search {
+    display: none;
+    cursor: pointer;
+    font-size: 24px;
+    margin-right: 10px;
+    color: #fff;
+    position: absolute;
+    right: 0;
+    width: 50px;
+    z-index: 99999;
+}
+
 .nav.navbar-search input[type="search"] {
     background-color: #000;
+    position: relative;
+    z-index: 9;
     border: none;
     border-radius: 30px;
     width: 250px;
