@@ -76,6 +76,12 @@ button, input, button:focus, button:active, input:focus { outline: none; }
     padding: 5px 0;
 }
 
+.navbar-brand h1 {
+    margin: 0;
+    opacity: 0;
+    text-indent: -9999px;
+}
+
 .navbar-right { margin-right: 0; }
 
 .navbar-default .navbar-nav > li > a {

@@ -14,6 +14,17 @@ $(document).ready(function() {
     }, ".film-wrapper");
 
 
+    (function() {
+        var input = ".navbar-search input";
+        var inputValue = "Titre, acteur, réalisateur ...";
+        $(document).on('focus', input, function() {
+            $(this).val("");
+        });
+        $(document).on('blur', input, function() {
+            $(this).val(inputValue);
+        });
+    })();
+
     toggleSearch();
     $(window).resize(function() { toggleSearch(); });
 
@@ -23,6 +34,15 @@ $(document).ready(function() {
             var input = $('.nav.navbar-search input'),
                 close = '#close-search',
                 label = '.nav.navbar-search label';
+
+            /**
+             * Bug iOS
+             *
+             * When input appear, this doesn't focus
+             */
+            input.attr('autofocus', true);
+            $(document).on('click', label, function() { input.focus(); });
+            $(document).on('click', label, function() { input.blur(); });
 
             $(document).on('click mousedown', label, function() {
                 $(this).parent().css('background','#fff');
@@ -35,7 +55,6 @@ $(document).ready(function() {
                 $('.nav.navbar-search').css('background','transparent');
                 $(label).addClass('show');
                 $('.__toggle').toggleClass('show');
-
             });
         }
     }
