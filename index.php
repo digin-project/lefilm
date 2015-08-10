@@ -128,19 +128,21 @@
             <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2 film">
                 <div class="film-container">
                     <div class="film-wrapper">
-                        <div class="film-wrapper" style="background-image: url('/images/dummy/ted.jpg');">
-                            <section class="film-infos">
-                                <h2>Ted</h2>
-                                <p>
-                                    <span>Comédie</span>
-                                    <span>2012</span>
-                                    <span>1h16</span>
-                                </p>
-                                <div class="film-play">
-                                    <button><i class="fa fa-play"></i></button>
-                                </div>
-                            </section>
-                        </div>
+                        <a href="film/ted-2.php">
+                            <div class="film-wrapper" style="background-image: url('/images/dummy/ted.jpg');">
+                                <section class="film-infos">
+                                    <h2>Ted</h2>
+                                    <p>
+                                        <span>Comédie</span>
+                                        <span>2012</span>
+                                        <span>1h16</span>
+                                    </p>
+                                    <div class="film-play">
+                                        <button><i class="fa fa-play"></i></button>
+                                    </div>
+                                </section>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
