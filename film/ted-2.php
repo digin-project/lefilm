@@ -37,6 +37,7 @@
             </div>
         </div>
 
+        <?php require "../helper/fragments/suggestions.php"; ?>
         <?php require "../helper/fragments/footer.php"; ?>
         <?php require "../helper/fragments/script.php"; ?>
     </body>
