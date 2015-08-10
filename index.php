@@ -51,25 +51,27 @@
         <div class="row row-film">
             <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2 film">
                 <div class="film-container">
-                    <div class="film-wrapper" style="background-image: url('/images/dummy/fast_and_furious.jpg');">
-                        <section class="film-infos">
-                            <h2>Fast and Furious</h2>
-                            <p>
-                                <span>Course</span>
-                                <span>2008</span>
-                                <span>1h35</span>
-                            </p>
-                            <div class="film-play">
-                            <button><i class="fa fa-play"></i></button>
-                            </div>
-                        </section>
-                    </div>
+                    <a href="film/divergente-2.php">
+                        <div class="film-wrapper" style="background-image: url('/images/dummy/divergente2.jpg');">
+                            <section class="film-infos">
+                                <h2>Divergente 2</h2>
+                                <p>
+                                    <span>Science-fiction</span>
+                                    <span>2015</span>
+                                    <span>1h59</span>
+                                </p>
+                                <div class="film-play">
+                                    <button><i class="fa fa-play"></i></button>
+                                </div>
+                            </section>
+                        </div>
+                    </a>
                 </div>
             </div>
             <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2 film">
                 <div class="film-container">
                     <div class="film-wrapper">
-                        <div class="film-wrapper">
+                        <div class="film-wrapper" style="background-image: url('/images/dummy/oblivion.jpg');">
                             <section class="film-infos">
                                 <h2>Oblivion</h2>
                                 <p>
@@ -187,7 +189,7 @@
             <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2 film">
                 <div class="film-container">
                     <div class="film-wrapper">
-                        <div class="film-wrapper">
+                        <div class="film-wrapper" style="background-image: url('/images/dummy/oblivion.jpg');">
                             <section class="film-infos">
                                 <h2>Oblivion</h2>
                                 <p>

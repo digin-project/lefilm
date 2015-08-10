@@ -197,7 +197,7 @@ nav.sub-nav li:last-child { margin-right: 0; }
     width: 200px;
     height: 300px;
     margin: 0 auto;
-    background-image: url("/images/dummy/oblivion.jpg");
+    background-color: #eee;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
