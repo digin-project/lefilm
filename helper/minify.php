@@ -19,8 +19,8 @@ file_put_contents($jsOutput, curl_exec($ch));
 $cssFile = array(
     "../styles/app.css",
     "../styles/film.css",
-    "../styles/footer.css",
-    "../styles/mobile.css"
+    "../styles/mobile.css",
+    "../styles/footer.css"
 );
 $cssOutputFile = "../styles/app.min.css";
 

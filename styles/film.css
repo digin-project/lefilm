@@ -45,6 +45,7 @@
 #film #film-info-container .synopsis-container {
     font-size: 13px;
     padding-top: 20px;
+    padding-right: 20px;
     text-align: justify;
 }
 /** Other videos **/
@@ -90,7 +91,7 @@
 	margin-top: 40px;
 	margin-bottom: 10px;
 	font-size: 1.6em;
-	
+
 }
 
 .films-form-right > div,  .films-form-left > div{
@@ -100,13 +101,13 @@
 	margin-bottom : 15px;
 	height: 200px;
 
-	
+
 }
 .films-form-right > div.first {
 	width: 67%;
 	margin-right: 3%;
 	height: 415px;
-	
+
 }
 .films-form-right > div > div.image, .films-form-left > div > div.image {
 	width: 100%;
@@ -119,7 +120,7 @@
 	box-shadow: 0px 0px 10px 5px #cfcfcf;
 	filter:progid:DXImageTransform.Microsoft.Shadow(color=#cfcfcf, Direction=NaN, Strength=10);
 
-	
+
 }
 .films-form-right > div > div.image > div.internShadow, .films-form-left > div > div.image > div.internShadow {
 	width: 100%;

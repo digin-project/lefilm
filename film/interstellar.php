@@ -115,7 +115,7 @@
                     <div class="col-lg-5">
                         <div class="clear"></div>
                         <h3>Avec les mêmes acteurs</h3>
-                        
+
                         <div class="film films-form-left">
                             <div>
                                 <div class="image" style="background-image:url('/images/dummy/amy.jpg');"><div class="internShadow"></div></div>
@@ -153,7 +153,7 @@
                 <div class="row">
                     <div class="col-lg-5">
                         <div class="clear"></div>
-                        <h3>Vous aimez ce réalisateur ? Vous aimerez aussi :</h3>    
+                        <h3>Vous aimez ce réalisateur ? Vous aimerez aussi :</h3>
                         <div class="slider">
                             <div class="film films-form-right show">
                                 <div class="first">
