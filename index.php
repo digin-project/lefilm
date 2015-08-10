@@ -288,6 +288,7 @@
         <button><i class="fa fa-spinner"></i>En voir plus</button>
     </div>
 
+    <?php require "/helper/fragments/cookies.php"; ?>
     <?php require "/helper/fragments/footer.php"; ?>
     <?php require "/helper/fragments/script.php"; ?>
 </body>

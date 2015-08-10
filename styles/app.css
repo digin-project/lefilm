@@ -287,3 +287,38 @@ nav.sub-nav li:last-child { margin-right: 0; }
 }
 
 #load-more button i { margin-right: 20px; }
+
+/**
+ * Cookies
+ */
+#cookies-container {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(0,0,0,.8);
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    overflow: hidden;
+}
+#cookies-container div {
+    overflow: hidden;
+    width: 100%;
+    max-width: 460px;
+    margin: 0 auto;
+}
+#cookies-container button {
+    float: left;
+    margin: 0 auto;
+    background-color: #b9352a;
+    text-transform: uppercase;
+    border: none;
+    padding: 4px 6px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+#cookies-container button:last-child { margin-right: 0; }
