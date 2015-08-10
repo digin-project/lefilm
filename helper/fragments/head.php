@@ -1,8 +1,6 @@
 <?php
-    define("DEV", true);
-?>
+define("DEV", true);
 
-<?php
 function sanitize_output($buffer) {
     $search = array(
         '/\>[^\S ]+/s',  // strip whitespaces after tags, except space
@@ -18,7 +16,9 @@ function sanitize_output($buffer) {
     return $buffer;
 }
 
-ob_start("sanitize_output");
+if(!DEV) {
+    ob_start("sanitize_output");
+}
 ?>
 
 <head>
