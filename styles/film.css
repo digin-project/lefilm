@@ -72,7 +72,10 @@
 #film #other-videos ul li p span.black { color: #000; }
 #film #other-videos ul li div.thumb {
     height: 100px;
-    background-color: #000;
+    background-image: url('/images/dummy/minion-thumb.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }
 
 .recommendations {
