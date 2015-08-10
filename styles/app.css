@@ -101,6 +101,7 @@ nav.sub-nav ul > li > a {
     color: rgba(255,255,255,0.8);
     transition: color 1s;
     padding:  10px 15px;
+    font-size: 13px;
 }
 nav.sub-nav ul > li > a:hover,
 nav.sub-nav ul > li > a:focus,

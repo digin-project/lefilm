@@ -41,7 +41,7 @@ footer .top-footer .social a.tw:hover{
 
 footer .in-this-time {
 	padding : 20px 0;
-	border-bottom: 1px solid rgba(255,255,255,0.2);	
+	border-bottom: 1px solid rgba(255,255,255,0.2);
 }
 
 footer .in-this-time h3 {
@@ -55,11 +55,11 @@ footer .in-this-time ul {
 }
 footer .program {
 	padding : 20px 0;
-	border-bottom: 1px solid rgba(255,255,255,0.2);	
+	border-bottom: 1px solid rgba(255,255,255,0.2);
 }
 footer .program h4 {
 	float : left;
-
+	margin-top: 15px;
 }
 footer .program ul {
 	list-style: none;
