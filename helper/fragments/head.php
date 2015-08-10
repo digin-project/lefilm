@@ -1,4 +1,8 @@
 <?php
+    define("DEV", false);
+?>
+
+<?php
 function sanitize_output($buffer) {
     $search = array(
         '/\>[^\S ]+/s',  // strip whitespaces after tags, except space
@@ -30,8 +34,12 @@ ob_start("sanitize_output");
     <!-- Il manque un truc css pour le burger, à trouver ... -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/styles/app.css">
-    <link rel="stylesheet" href="/styles/film.css">
-    <link rel="stylesheet" href="/styles/footer.css">
-    <link rel="stylesheet" href="/styles/mobile.css">
+    <?php if(DEV) { ?>
+        <link rel="stylesheet" href="/styles/app.css">
+        <link rel="stylesheet" href="/styles/film.css">
+        <link rel="stylesheet" href="/styles/footer.css">
+        <link rel="stylesheet" href="/styles/mobile.css">
+    <?php } else { ?>
+        <link rel="stylesheet" href="/styles/app.min.css">
+    <?php } ?>
 </head>

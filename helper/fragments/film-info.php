@@ -1,12 +1,12 @@
-<div class="col-lg-8">
+<div class="col-lg-8 col-md-7">
     <div class="player-container">
         <div class="row">
-            <div class="col-lg-8">
+            <div class="col-lg-8 col-md-8 col-sm-7 col-xs-12">
                 <div id="player">
                     <i class="fa fa-play"></i>
                 </div>
             </div>
-            <div class="col-lg-4 film-info">
+            <div class="col-lg-4 col-md-4 col-sm-5 col-xs-12 film-info">
                 <div class="rank">
                     <i class="fa fa-star full"></i>
                     <i class="fa fa-star full"></i>

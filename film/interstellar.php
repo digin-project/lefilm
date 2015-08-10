@@ -33,43 +33,7 @@
                     require "../helper/fragments/film-info.php";
                 ?>
 
-                <div class="col-lg-4" id="other-videos">
-                    <h3>Autres bande-annonce</h3>
-                    <ul>
-                        <li class="row">
-                            <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 thumb"></div>
-                            <div class="col-lg-7">
-                                <h4>Solace</h4>
-                                <p>par <span class="black">Teaser-Trailer.com</span></p>
-                                <p>869 vues</p>
-                            </div>
-                        </li>
-                        <li class="row">
-                            <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 thumb"></div>
-                            <div class="col-lg-7">
-                                <h4>Solace</h4>
-                                <p>par <span class="black">Teaser-Trailer.com</span></p>
-                                <p>869 vues</p>
-                            </div>
-                        </li>
-                        <li class="row">
-                            <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 thumb"></div>
-                            <div class="col-lg-7">
-                                <h4>Solace</h4>
-                                <p>par <span class="black">Teaser-Trailer.com</span></p>
-                                <p>869 vues</p>
-                            </div>
-                        </li>
-                        <li class="row">
-                            <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 thumb"></div>
-                            <div class="col-lg-7">
-                                <h4>Solace</h4>
-                                <p>par <span class="black">Teaser-Trailer.com</span></p>
-                                <p>869 vues</p>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
+                <?php require "../helper/fragments/other-videos.php"; ?>
             </div>
         </div>
 

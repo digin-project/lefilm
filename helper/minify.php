@@ -16,4 +16,30 @@ curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query(array(
 
 file_put_contents($jsOutput, curl_exec($ch));
 
+$cssFile = array(
+    "../styles/app.css",
+    "../styles/film.css",
+    "../styles/footer.css",
+    "../styles/mobile.css"
+);
+$cssOutputFile = "../styles/app.min.css";
+
+function compressCss ($code) {
+    $code = preg_replace('!/\*[^*]*\*+([^/][^*]*\*+)*/!', '', $code);
+    $code = str_replace(array("\r\n", "\r", "\n", "\t", '  ', '    ', '    '), '', $code);
+    $code = str_replace('{ ', '{', $code);
+    $code = str_replace(' }', '}', $code);
+    $code = str_replace('; ', ';', $code);
+
+    return $code;
+}
+
+$cssOutput = "";
+foreach ($cssFile as $key => $file) {
+    $css = file_get_contents($file);
+    $cssOutput .= compressCss($css);
+}
+
+file_put_contents($cssOutputFile, $cssOutput);
+
 exit("Success");
