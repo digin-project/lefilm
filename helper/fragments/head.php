@@ -29,7 +29,7 @@ ob_start("sanitize_output");
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
     <!-- LIBRARIES -->
-    <link href='http://fonts.googleapis.com/css?family=Roboto:400,500' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,500,300' rel='stylesheet' type='text/css'>
     <!-- <link rel="stylesheet" href="libraries/bootstrap/css/bootstrap.min.css"> -->
     <!-- Il manque un truc css pour le burger, à trouver ... -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
