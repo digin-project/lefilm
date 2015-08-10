@@ -60,9 +60,7 @@
                                 <span>1h35</span>
                             </p>
                             <div class="film-play">
-                                <a href="/">
-                                    <button><i class="fa fa-play"></i></button>
-                                </a>
+                            <button><i class="fa fa-play"></i></button>
                             </div>
                         </section>
                     </div>
@@ -80,9 +78,7 @@
                                     <span>2h41</span>
                                 </p>
                                 <div class="film-play">
-                                    <a href="/">
-                                        <button><i class="fa fa-play"></i></button>
-                                    </a>
+                                    <button><i class="fa fa-play"></i></button>
                                 </div>
                             </section>
                         </div>
@@ -92,21 +88,21 @@
             <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2 film">
                 <div class="film-container">
                     <div class="film-wrapper">
-                        <div class="film-wrapper" style="background-image: url('/images/dummy/interstellar.png');">
-                            <section class="film-infos">
-                                <h2>Interstellar</h2>
-                                <p>
-                                    <span>Science-fiction</span>
-                                    <span>2014</span>
-                                    <span>3h02</span>
-                                </p>
-                                <div class="film-play">
-                                    <a href="/">
+                        <a href="film/interstellar.php">
+                            <div class="film-wrapper" style="background-image: url('/images/dummy/interstellar.png');">
+                                <section class="film-infos">
+                                    <h2>Interstellar</h2>
+                                    <p>
+                                        <span>Science-fiction</span>
+                                        <span>2014</span>
+                                        <span>3h02</span>
+                                    </p>
+                                    <div class="film-play">
                                         <button><i class="fa fa-play"></i></button>
-                                    </a>
-                                </div>
-                            </section>
-                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -122,9 +118,7 @@
                                     <span>2h23</span>
                                 </p>
                                 <div class="film-play">
-                                    <a href="/">
-                                        <button><i class="fa fa-play"></i></button>
-                                    </a>
+                                    <button><i class="fa fa-play"></i></button>
                                 </div>
                             </section>
                         </div>
@@ -143,9 +137,7 @@
                                     <span>1h16</span>
                                 </p>
                                 <div class="film-play">
-                                    <a href="/">
-                                        <button><i class="fa fa-play"></i></button>
-                                    </a>
+                                    <button><i class="fa fa-play"></i></button>
                                 </div>
                             </section>
                         </div>
@@ -164,9 +156,7 @@
                                     <span>1h38</span>
                                 </p>
                                 <div class="film-play">
-                                    <a href="/">
-                                        <button><i class="fa fa-play"></i></button>
-                                    </a>
+                                    <button><i class="fa fa-play"></i></button>
                                 </div>
                             </section>
                         </div>
@@ -186,9 +176,7 @@
                                 <span>1h35</span>
                             </p>
                             <div class="film-play">
-                                <a href="/">
-                                    <button><i class="fa fa-play"></i></button>
-                                </a>
+                            <button><i class="fa fa-play"></i></button>
                             </div>
                         </section>
                     </div>
@@ -206,9 +194,7 @@
                                     <span>2h41</span>
                                 </p>
                                 <div class="film-play">
-                                    <a href="/">
-                                        <button><i class="fa fa-play"></i></button>
-                                    </a>
+                                    <button><i class="fa fa-play"></i></button>
                                 </div>
                             </section>
                         </div>
@@ -227,9 +213,7 @@
                                     <span>3h02</span>
                                 </p>
                                 <div class="film-play">
-                                    <a href="/">
-                                        <button><i class="fa fa-play"></i></button>
-                                    </a>
+                                    <button><i class="fa fa-play"></i></button>
                                 </div>
                             </section>
                         </div>
@@ -248,9 +232,7 @@
                                     <span>2h23</span>
                                 </p>
                                 <div class="film-play">
-                                    <a href="/">
-                                        <button><i class="fa fa-play"></i></button>
-                                    </a>
+                                    <button><i class="fa fa-play"></i></button>
                                 </div>
                             </section>
                         </div>
@@ -269,9 +251,7 @@
                                     <span>1h16</span>
                                 </p>
                                 <div class="film-play">
-                                    <a href="/">
-                                        <button><i class="fa fa-play"></i></button>
-                                    </a>
+                                    <button><i class="fa fa-play"></i></button>
                                 </div>
                             </section>
                         </div>
@@ -290,9 +270,7 @@
                                     <span>1h38</span>
                                 </p>
                                 <div class="film-play">
-                                    <a href="/">
-                                        <button><i class="fa fa-play"></i></button>
-                                    </a>
+                                    <button><i class="fa fa-play"></i></button>
                                 </div>
                             </section>
                         </div>
