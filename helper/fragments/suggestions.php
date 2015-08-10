@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-lg-5">
                 <div class="clear"></div>
-                <h2>Divergente, toute la sage !</h2>
+                <h2>Divergente, toute la saga !</h2>
                 <div class="film films-form-right">
                     <div class="first">
                         <div class="film-wrapper image" style="background-image:url('/images/dummy/divergente.jpg');">
