@@ -1,5 +1,5 @@
 <?php
-    define("DEV", false);
+    define("DEV", true);
 ?>
 
 <?php
