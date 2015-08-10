@@ -3,7 +3,7 @@
     <?php
         $title = "Lefilm.fr";
         $description = "Description index";
-        require "/helper/fragments/head.php";
+        require "helper/fragments/head.php";
     ?>
     <body>
 
@@ -12,7 +12,7 @@
     <![endif]-->
 
     <header>
-        <?php require "/helper/fragments/top-header.php"; ?>
+        <?php require "helper/fragments/top-header.php"; ?>
         <nav class="sub-nav">
             <div class="container-fluid">
                 <!-- <button type="button" class="navbar-toggle collapsed burger" data-toggle="collapse" data-target=".navbar-collapse">
@@ -288,8 +288,8 @@
         <button><i class="fa fa-spinner"></i>En voir plus</button>
     </div>
 
-    <?php require "/helper/fragments/cookies.php"; ?>
-    <?php require "/helper/fragments/footer.php"; ?>
-    <?php require "/helper/fragments/script.php"; ?>
+    <?php require "helper/fragments/cookies.php"; ?>
+    <?php require "helper/fragments/footer.php"; ?>
+    <?php require "helper/fragments/script.php"; ?>
 </body>
 </html>

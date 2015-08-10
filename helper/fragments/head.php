@@ -1,5 +1,5 @@
 <?php
-define("DEV", true);
+define("DEV", false);
 
 function sanitize_output($buffer) {
     $search = array(
