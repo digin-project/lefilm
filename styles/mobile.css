@@ -86,7 +86,7 @@
     /**
      * Single film
      */
-    .first { height: 315px !important; margin-bottom: 0 !important; }
+    .first { height: 315px !important; }
     .films-form-right > div:not(.first), .films-form-left > div:not(.first) { height: 150px !important; }
 }
 
