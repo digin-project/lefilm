@@ -1,5 +1,5 @@
 <?php
-define("DEV", true);
+define("DEV", false);
 
 function sanitize_output($buffer) {
     $search = array(
@@ -45,12 +45,10 @@ if(!DEV) { ob_start("sanitize_output"); }
 
     <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
 
-    <!-- LIBRARIES -->
-    <link href='http://fonts.googleapis.com/css?family=Roboto:400,500,300' rel='stylesheet' type='text/css'>
     <!-- <link rel="stylesheet" href="libraries/bootstrap/css/bootstrap.min.css"> -->
     <!-- Il manque un truc css pour le burger, à trouver ... -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="/libraries/bootstrap/css/bootstrap-full.min.css">
 
     <?php if(DEV) { ?>
     <link rel="stylesheet" href="/styles/app.css" type="text/css">
@@ -60,4 +58,8 @@ if(!DEV) { ob_start("sanitize_output"); }
     <?php } else { ?>
     <link rel="stylesheet" href="/styles/min/app.min.css">
     <?php } ?>
+
+    <!-- LIBRARIES -->
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,500,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 </head>

@@ -10,10 +10,14 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
 <script src="/libraries/bootstrap/js/bootstrap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js"></script>
+<script src="/libraries/fast-click/fast-click.min.js"></script>
 
 <script type="text/javascript">
-if('addEventListener' in document){ document.addEventListener('DOMContentLoaded', function() { FastClick.attach(document.body); }, false); }
+if('addEventListener' in document){
+    var attachFastClick = Origami.fastclick;
+    attachFastClick(document.body);
+    // document.addEventListener('DOMContentLoaded', function() { FastClick.attach(document.body); }, false);
+}
 </script>
 
 <script src="/scripts/min/app.min.js"></script>

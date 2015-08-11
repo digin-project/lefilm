@@ -1,8 +1,6 @@
 @media screen and (min-width: 760px) { #close-search { display: none !important; } }
 
-@media screen
-    and (min-width: 900px)
-    and (max-width: 1200px) {
+@media screen and (min-width: 900px) and (max-width: 1200px) {
     .row.row-film { padding: 0; }
     .film { margin: 20px 0; }
     .film:first-child { margin-bottom: 20px; }
@@ -17,12 +15,7 @@
 /**
  * For iPad landscape
  */
-@media only screen
-    and (min-device-width: 768px)
-    and (max-device-width: 1048px)
-    and (orientation: landscape)
-    and (-webkit-min-device-pixel-ratio: 1) {
-
+@media only screen and (min-device-width: 768px) and (max-device-width: 1048px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
     .row.row-film { padding: 0; }
     .film { margin: 10px 0 !important; }
     .film-wrapper {
@@ -66,6 +59,13 @@
 @media screen and (max-width: 640px) {
     .navbar-brand { margin-left: 15px !important; }
     nav.sub-nav { padding: 0 0 10px 0; }
+    .sub-nav-film h2 { font-size: 18px; }
+    nav.sub-nav-film { padding: 10px 0 10px 0; }
+
+    #film #player { height: 200px; }
+    #film #player i { line-height: 200px; }
+    #film #film-info-container .synopsis-container { padding-top: 10px; padding-bottom: 20px; }
+    .recommendations h2 { font-size: 1.2em; }
 
     .navbar-search > div { width: 100%; }
     .nav.navbar-search input[type="search"] {
@@ -86,8 +86,14 @@
     /**
      * Single film
      */
-    .first { height: 315px !important; }
-    .films-form-right > div:not(.first), .films-form-left > div:not(.first) { height: 150px !important; }
+    .first { height: 300px !important; }
+    .films-form-right > div:not(.first), .films-form-left > div:not(.first) { height: 143px !important; }
+}
+
+@media only screen and (max-width: 640px) and (orientation: landscape) {
+
+    .first { height: 500px !important; }
+    .films-form-right > div:not(.first), .films-form-left > div:not(.first) { height: 243px !important; }
 }
 
 @media screen and (max-width: 400px) {
