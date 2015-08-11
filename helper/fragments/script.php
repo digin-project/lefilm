@@ -13,9 +13,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js"></script>
 
 <script type="text/javascript">
-if('addEventListener' in document){
-    document.addEventListener('DOMContentLoaded', function() { FastClick.attach(document.body); }, false);
-}
+if('addEventListener' in document){ document.addEventListener('DOMContentLoaded', function() { FastClick.attach(document.body); }, false); }
 </script>
 
 <script src="/scripts/app.min.js"></script>

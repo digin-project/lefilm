@@ -25,22 +25,22 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span> -->
-                        <i class="fa fa-arrow-down"></i>
+                        <i class="fa fa-bars"></i>
                     </button>
                 </div>
                 <div class="collapse navbar-collapse" id="collapse-menu">
                     <ul class="nav navbar-nav navbar-left">
-                        <li><a class="active" href="#">Tous les films</a></li>
-                        <li><a href="#">Action</a></li>
-                        <li><a href="#">Comédies</a></li>
-                        <li><a href="#">Drames</a></li>
-                        <li><a href="#">Français</a></li>
-                        <li><a href="#">Classiques</a></li>
-                        <li><a href="#">Thrillers</a></li>
-                        <li><a href="#">Arts</a></li>
-                        <li><a href="#">Fantastiques</a></li>
-                        <li><a href="#">Horreur</a></li>
-                        <li><a href="#">Documentaires</a></li>
+                        <li><a alt="Tous les films" title="Tous les films" class="active" href="/">Tous les films</a></li>
+                        <li><a alt="Action" title="Action" href="/">Action</a></li>
+                        <li><a alt="Comédies" title="Comédies" href="/">Comédies</a></li>
+                        <li><a alt="Drames" title="Drames" href="/">Drames</a></li>
+                        <li><a alt="Français" title="Français" href="/">Français</a></li>
+                        <li><a alt="Classiques" title="Classiques" href="/">Classiques</a></li>
+                        <li><a alt="Thrillers" title="Thrillers" href="/">Thrillers</a></li>
+                        <li><a alt="Arts" title="Arts" href="/">Arts</a></li>
+                        <li><a alt="Fantastiques" title="Fantastiques" href="/">Fantastiques</a></li>
+                        <li><a alt="Horreur" title="Horreur" href="/">Horreur</a></li>
+                        <li><a alt="Documentaires" title="Documentaires" href="/">Documentaires</a></li>
                     </ul>
                 </div>
             </div>
@@ -51,7 +51,7 @@
         <div class="row row-film">
             <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2 film">
                 <div class="film-container">
-                    <a href="film/divergente-2.php">
+                    <a href="film/divergente-2.php" alt="Divergente 2" title="Divergente 2">
                         <div class="film-wrapper" style="background-image: url('/images/dummy/divergente2.jpg');">
                             <section class="film-infos">
                                 <h2>Divergente 2</h2>
@@ -90,7 +90,7 @@
             <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2 film">
                 <div class="film-container">
                     <div class="film-wrapper">
-                        <a href="film/interstellar.php">
+                        <a href="film/interstellar.php" alt="Interstellar" title="Interstellar">
                             <div class="film-wrapper" style="background-image: url('/images/dummy/interstellar.png');">
                                 <section class="film-infos">
                                     <h2>Interstellar</h2>
@@ -130,7 +130,7 @@
             <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2 film">
                 <div class="film-container">
                     <div class="film-wrapper">
-                        <a href="film/ted-2.php">
+                        <a href="film/ted-2.php" alt="Ted 2" title="Ted 2">
                             <div class="film-wrapper" style="background-image: url('/images/dummy/ted.jpg');">
                                 <section class="film-infos">
                                     <h2>Ted</h2>

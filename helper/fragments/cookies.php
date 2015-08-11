@@ -5,6 +5,4 @@
         <button class="c-more">Pour en savoir plus et paramétrer les cookies, cliquez ici.</button>
     </div>
 </div>
-<script type="text/javascript">
-document.getElementById("cookies-container").addEventListener("click", function(e) { return document.getElementById("cookies-container").style.display = "none"; });
-</script>
+<script type="text/javascript">document.getElementById("cookies-container").addEventListener("click", function(e) { return document.getElementById("cookies-container").style.display = "none"; });</script>

@@ -7,7 +7,7 @@
                 </div>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-5 col-xs-12 film-info">
-                <div class="rank">
+                <div class="rank" title="Note">
                     <i class="fa fa-star full"></i>
                     <i class="fa fa-star full"></i>
                     <i class="fa fa-star full"></i>
