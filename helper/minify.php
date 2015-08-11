@@ -1,7 +1,7 @@
 <?php
 
 $jsFile = "../scripts/app.js";
-$jsOutput = "../scripts/app.min.js";
+$jsOutput = "../scripts/min/app.min.js";
 
 $ch = curl_init('http://closure-compiler.appspot.com/compile');
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
@@ -22,7 +22,7 @@ $cssFile = array(
     "../styles/mobile.css",
     "../styles/footer.css"
 );
-$cssOutputFile = "../styles/app.min.css";
+$cssOutputFile = "../styles/min/app.min.css";
 
 function compressCss ($code) {
     $code = preg_replace('!/\*[^*]*\*+([^/][^*]*\*+)*/!', '', $code);

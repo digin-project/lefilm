@@ -16,9 +16,7 @@ function sanitize_output($buffer) {
     return $buffer;
 }
 
-if(!DEV) {
-    ob_start("sanitize_output");
-}
+if(!DEV) { ob_start("sanitize_output"); }
 ?>
 
 <head>
@@ -60,6 +58,6 @@ if(!DEV) {
     <link rel="stylesheet" href="/styles/footer.css" type="text/css">
     <link rel="stylesheet" href="/styles/mobile.css" type="text/css">
     <?php } else { ?>
-    <link rel="stylesheet" href="/styles/app.min.css">
+    <link rel="stylesheet" href="/styles/min/app.min.css">
     <?php } ?>
 </head>

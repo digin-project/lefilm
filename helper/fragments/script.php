@@ -16,4 +16,4 @@
 if('addEventListener' in document){ document.addEventListener('DOMContentLoaded', function() { FastClick.attach(document.body); }, false); }
 </script>
 
-<script src="/scripts/app.min.js"></script>
+<script src="/scripts/min/app.min.js"></script>
