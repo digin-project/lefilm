@@ -91,7 +91,7 @@
                 <div class="film-container">
                     <div class="film-wrapper">
                         <a href="film/interstellar.php" alt="Interstellar" title="Interstellar">
-                            <div class="film-wrapper" style="background-image: url('/images/dummy/interstellar.png');">
+                            <div class="film-wrapper" style="background-image: url('/images/dummy/interstellar.jpg');">
                                 <section class="film-infos">
                                     <h2>Interstellar</h2>
                                     <p>
@@ -208,7 +208,7 @@
             <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2 film">
                 <div class="film-container">
                     <div class="film-wrapper">
-                        <div class="film-wrapper" style="background-image: url('/images/dummy/interstellar.png');">
+                        <div class="film-wrapper" style="background-image: url('/images/dummy/interstellar.jpg');">
                             <section class="film-infos">
                                 <h2>Interstellar</h2>
                                 <p>
