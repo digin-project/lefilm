@@ -12,6 +12,10 @@
     }
 }
 
+@media screen and (max-width: 900px) {
+    .film { margin: 10px 0; }
+}
+
 /**
  * For iPad landscape
  */
