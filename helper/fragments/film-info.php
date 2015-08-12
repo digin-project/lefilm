@@ -5,6 +5,11 @@
                 <div id="player" itemprop="video" itemprop="trailer" itemscope itemtype="http://schema.org/VideoObject">
                     <meta itemprop="duration" content="T1M33S">
                     <meta itemprop="thumbnail" content="">
+                    <meta itemprop="playerType" content="Flash">
+                    <meta itemprop="url" content="">
+                    <meta itemprop="name" content="<?php print $film["title"]; ?>">
+                    <meta itemprop="isFamilyFriendly" content="true">
+                    <meta itemprop="description" content="<?php print $filme["description"]; ?>">
                     <i class="fa fa-play"></i>
                 </div>
             </div>
