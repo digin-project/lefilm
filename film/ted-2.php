@@ -22,6 +22,7 @@
 
                 <?php
                     $film = array(
+                        "title" => "Ted 2",
                         "release" => "05 août 2015",
                         "time" => "1h27m",
                         "type" => "Comédie",

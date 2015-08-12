@@ -22,6 +22,7 @@
 
                 <?php
                     $film = array(
+                        "title" => "Divergente 2 : L'insurrection",
                         "release" => "18 Mars 2015",
                         "time" => "1h59m",
                         "type" => "Science-fiction, Action",

@@ -22,6 +22,7 @@
 
                 <?php
                     $film = array(
+                        "title" => "Interstellar",
                         "release" => "05 Novembre 2014",
                         "time" => "2h49m",
                         "type" => "Science-fiction, aventure",

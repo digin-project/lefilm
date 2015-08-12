@@ -39,6 +39,11 @@
 #film #film-info-container .film-info p {
     margin: 0;
 }
+#film #film-info-container .film-info h1 {
+    text-indent: -9999px;
+    opacity: 0;
+    position: absolute;
+}
 #film #film-info-container .film-info .film-info-wrapper {
     margin-bottom: 10px;
 }
