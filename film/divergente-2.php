@@ -2,7 +2,7 @@
 <html>
     <?php
         $title = "Divergente 2 : L'insurrection - Lefilm.fr";
-        $description = "Divergente 2 : L'insurrection description";
+        $description = "Divergente 2 - L'insurrection : le Film Entier en Haute Qualité  &amp; 100% Légal avec lefilm.fr Réalisé par Robert Schwentke.";
         require "../helper/fragments/head.php";
     ?>
     <body>

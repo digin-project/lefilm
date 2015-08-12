@@ -21,15 +21,22 @@ if(!DEV) { ob_start("sanitize_output"); }
 
 <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="revisit-after" content="2 days" />
     <title><?php print $title; ?></title>
     <meta name="description" content="<?php print $description; ?>">
     <meta name="keywords" content="">
-    <meta name="author" content="">
+    <meta name="author" content="lefilm">
+    <meta name="language" content="fr-FR" />
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="theme-color" content="#b9352a">
+    <meta name="google-site-verification" content="" />
 
     <!-- Facebook meta tags -->
+    <meta property="og:locale:alternate" content="fr_FR" />
+    <meta property="og:type" content="website" />
     <meta property="og:title" content="<?php print $title; ?>">
     <meta property="og:image" content="http://lefilm.digin.fr/images/lefilmfr.png">
     <meta property="og:url" content="http://lefilm.digin.fr/">

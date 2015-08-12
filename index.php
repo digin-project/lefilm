@@ -2,7 +2,7 @@
 <html>
     <?php
         $title = "Lefilm.fr";
-        $description = "Description index";
+        $description = "Votre nouveau guide cinéma personnalisé. Retrouvez toutes les bandes annonces de vos films en streaming, les avis des spectateurs et de vos amis, les nouveautés et les films à venir, et obtenez des suggestions ciné selon vos préférences";
         require "helper/fragments/head.php";
     ?>
     <body>
