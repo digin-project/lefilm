@@ -1,19 +1,9 @@
 @media screen and (min-width: 760px) { #close-search { display: none !important; } }
 
 @media screen and (min-width: 900px) and (max-width: 1200px) {
-    .row.row-film { padding: 0; }
-    .film { margin: 20px 0; }
-    .film:first-child { margin-bottom: 20px; }
-    .film:last-child { margin-top: 20px; }
-
-    .film-wrapper {
-        width: 280px;
-        height: 400px;
-    }
 }
 
 @media screen and (max-width: 900px) {
-    .film { margin: 10px 0; }
     #film #film-info-container .synopsis-container { padding-bottom: 20px; }
 }
 
@@ -21,13 +11,6 @@
  * For iPad landscape
  */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1048px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
-    .row.row-film { padding: 0; }
-    .film { margin: 10px 0 !important; }
-    .film-wrapper {
-        width: 250px;
-        height: 350px;
-    }
-
     .first { height: 845px !important; }
     .films-form-right > div:not(.first), .films-form-left > div:not(.first) { height: 415px !important; }
 }
@@ -81,16 +64,6 @@
         max-width: 100%;
     }
 
-    .row.row-film { padding: 0; }
-    .film { margin: 20px 0 !important; }
-    .film:first-child { margin-bottom: 20px; }
-    .film:last-child { margin-top: 20px; }
-
-    .film-wrapper {
-        width: 200px;
-        height: 300px;
-    }
-
     /**
      * Single film
      */
@@ -99,24 +72,12 @@
 }
 
 @media only screen and (max-width: 640px) and (orientation: landscape) {
-    .first { height: 500px !important; }
     .films-form-right > div:not(.first), .films-form-left > div:not(.first) { height: 243px !important; }
 }
 
 @media screen and (max-width: 400px) {
     .navbar-brand > img { padding: 5px; }
-    .film-wrapper {
-        width: 170px;
-        height: 270px;
-    }
-    .film:first-child, .film:nth-child(2) { margin-top: 10px !important; }
-    .film { margin: 5px 0 !important; }
 }
 
 @media screen and (max-width: 350px) {
-    .film-wrapper {
-        width: 140px;
-        height: 230px;
-    }
-    .film { margin: 5px 0 !important; }
 }

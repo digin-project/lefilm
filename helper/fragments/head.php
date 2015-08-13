@@ -58,12 +58,12 @@ if(!DEV) { ob_start("sanitize_output"); }
     <link rel="stylesheet" href="/libraries/bootstrap/css/bootstrap-full.min.css">
 
     <?php if(DEV) { ?>
-    <link rel="stylesheet" href="/styles/app.css" type="text/css">
-    <link rel="stylesheet" href="/styles/film.css" type="text/css">
-    <link rel="stylesheet" href="/styles/footer.css" type="text/css">
-    <link rel="stylesheet" href="/styles/mobile.css" type="text/css">
+    <link rel="stylesheet" href="styles/app.css" type="text/css">
+    <link rel="stylesheet" href="styles/film.css" type="text/css">
+    <link rel="stylesheet" href="styles/footer.css" type="text/css">
+    <link rel="stylesheet" href="styles/mobile.css" type="text/css">
     <?php } else { ?>
-    <link rel="stylesheet" href="/styles/min/app.min.css">
+    <link rel="stylesheet" href="styles/min/app.min.css">
     <?php } ?>
 
     <!-- LIBRARIES -->
