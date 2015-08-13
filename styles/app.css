@@ -307,7 +307,7 @@ nav.sub-nav li:last-child { margin-right: 0; }
 #cookies-container div {
     overflow: hidden;
     width: 100%;
-    max-width: 460px;
+    max-width: 170px;
     margin: 0 auto;
 }
 #cookies-container button {
@@ -320,5 +320,10 @@ nav.sub-nav li:last-child { margin-right: 0; }
     margin-right: 10px;
     margin-top: 10px;
     border-radius: 3px;
+}
+#cookies-container button.c-more {
+    background-color: transparent;
+    color: #fff;
+    text-transform: inherit;
 }
 #cookies-container button:last-child { margin-right: 0; }

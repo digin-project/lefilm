@@ -109,7 +109,8 @@
         width: 170px;
         height: 270px;
     }
-    .film { margin: 10px 0 !important; }
+    .film:first-child, .film:nth-child(2) { margin-top: 10px !important; }
+    .film { margin: 5px 0 !important; }
 }
 
 @media screen and (max-width: 350px) {
