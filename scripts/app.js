@@ -60,11 +60,10 @@ $(document).ready(function() {
     }
 
     (function() {
-        var dummy = $('.row-film:first-child').parent().html();
         var grid = $('#grid');
 
         $('#load-more').on('click mousedown', function() {
-            grid.append(dummy);
+            grid.append(grid.html());
         });
 
     })();

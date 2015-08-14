@@ -20,4 +20,4 @@ if('addEventListener' in document){
 }
 </script>
 
-<script src="/scripts/min/app.min.js"></script>
+<script src="scripts/app.js"></script>

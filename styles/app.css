@@ -216,15 +216,20 @@ nav.sub-nav li:last-child { margin-right: 0; }
 }
 
 .film-wrapper {
-    width: 98%;
-    height: 98%;
+    width: 195px;
+    height: 295px;
     margin: 0 auto;
     background-color: #eee;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
+    position: absolute;
     transform: translate3d(0,0,0);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
 }
 
 .film-infos {
