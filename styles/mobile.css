@@ -36,7 +36,7 @@
 }
 
 @media screen and (max-width: 765px) {
-    .navbar-brand { margin-left: 15px !important; }
+    .navbar-brand { margin-left: 35px !important; }
     .toggle-burger > span { display: inline; }
 
     nav.sub-nav li { padding-left: 10px; }
