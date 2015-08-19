@@ -67,7 +67,11 @@
 @media screen and (max-width: 640px) {
     .navbar-brand { margin-left: 15px !important; }
     nav.sub-nav { padding: 0 0 10px 0; }
+    .ios6-portrait { padding: 0 18px; }
     .sub-nav-film h2 { font-size: 18px; }
+    .nav.navbar-search label { right: 8px !important; }
+    nav.sub-nav ul > li > a { padding-left: 20px; }
+    nav.sub-nav ul > li > a:hover, nav.sub-nav ul > li > a.active { padding-left: 25px !important; }
     nav.sub-nav-film { padding: 10px 0 10px 0; }
 
     #film #player { height: 200px; }

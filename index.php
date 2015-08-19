@@ -14,7 +14,7 @@
     <header>
         <?php require "helper/fragments/top-header.php"; ?>
         <nav class="sub-nav">
-            <div class="container-fluid __auto_padding">
+            <div class="container-fluid ios6-portrait">
                 <!-- <button type="button" class="navbar-toggle collapsed burger" data-toggle="collapse" data-target=".navbar-collapse">
                     <i class="fa fa-tags"></i>
                 </button> -->
@@ -49,7 +49,7 @@
 
     <div class="container-fluid" id="grid">
         <div class="row row-film">
-            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2 film">
+            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2 film film-main-grid">
                 <div class="film-container">
                     <a href="film/divergente-2.php" alt="Divergente 2" title="Divergente 2">
                         <div class="film-wrapper" style="background-image: url('/images/dummy/divergente2.jpg');">
@@ -68,7 +68,7 @@
                     </a>
                 </div>
             </div>
-            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2 film">
+            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2 film film-main-grid">
                 <div class="film-container">
                     <div class="film-wrapper">
                         <div class="film-wrapper" style="background-image: url('/images/dummy/oblivion.jpg');">
@@ -87,7 +87,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2 film">
+            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2 film film-main-grid">
                 <div class="film-container">
                     <div class="film-wrapper">
                         <a href="film/interstellar.php" alt="Interstellar" title="Interstellar">
@@ -108,7 +108,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2 film">
+            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2 film film-main-grid">
                 <div class="film-container">
                     <div class="film-wrapper">
                         <div class="film-wrapper" style="background-image: url('/images/dummy/quantum-of-solace.jpg');">
@@ -127,7 +127,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2 film">
+            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2 film film-main-grid">
                 <div class="film-container">
                     <div class="film-wrapper">
                         <a href="film/ted-2.php" alt="Ted 2" title="Ted 2">
@@ -148,7 +148,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2 film">
+            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2 film film-main-grid">
                 <div class="film-container">
                     <div class="film-wrapper">
                         <div class="film-wrapper" style="background-image: url('/images/dummy/simpson.jpg');">
@@ -169,7 +169,7 @@
             </div>
         </div>
         <div class="row row-film">
-            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2 film">
+            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2 film film-main-grid">
                 <div class="film-container">
                     <div class="film-wrapper" style="background-image: url('/images/dummy/fast_and_furious.jpg');">
                         <section class="film-infos">
@@ -186,7 +186,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2 film">
+            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2 film film-main-grid">
                 <div class="film-container">
                     <div class="film-wrapper">
                         <div class="film-wrapper" style="background-image: url('/images/dummy/oblivion.jpg');">
@@ -205,7 +205,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2 film">
+            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2 film film-main-grid">
                 <div class="film-container">
                     <div class="film-wrapper">
                         <div class="film-wrapper" style="background-image: url('/images/dummy/interstellar.jpg');">
@@ -224,7 +224,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2 film">
+            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2 film film-main-grid">
                 <div class="film-container">
                     <div class="film-wrapper">
                         <div class="film-wrapper" style="background-image: url('/images/dummy/quantum-of-solace.jpg');">
@@ -243,7 +243,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2 film">
+            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2 film film-main-grid">
                 <div class="film-container">
                     <div class="film-wrapper">
                         <div class="film-wrapper" style="background-image: url('/images/dummy/ted.jpg');">
@@ -262,7 +262,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2 film">
+            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2 film film-main-grid">
                 <div class="film-container">
                     <div class="film-wrapper">
                         <div class="film-wrapper" style="background-image: url('/images/dummy/simpson.jpg');">

@@ -11,7 +11,7 @@ $(document).ready(function() {
             var OFFSET = (wWidth < 640) ? 5 : 10;
             var COEF = 1.5;
 
-            $(".film").each(function(i){
+            $(".film-main-grid").each(function(i){
                 var _this = $(this);
                 var _child = $(this).find('.film-wrapper');
 
