@@ -14,7 +14,7 @@
     <header>
         <?php require "helper/fragments/top-header.php"; ?>
         <nav class="sub-nav">
-            <div class="container-fluid ios6-portrait">
+            <div class="container-fluid ios-fix-padding">
                 <!-- <button type="button" class="navbar-toggle collapsed burger" data-toggle="collapse" data-target=".navbar-collapse">
                     <i class="fa fa-tags"></i>
                 </button> -->

@@ -67,7 +67,7 @@
 @media screen and (max-width: 640px) {
     .navbar-brand { margin-left: 15px !important; }
     nav.sub-nav { padding: 0 0 10px 0; }
-    .ios6-portrait { padding: 0 18px; }
+    .ios-fix-padding { padding: 0 18px; }
     .sub-nav-film h2 { font-size: 18px; }
     .nav.navbar-search label { right: 8px !important; }
     nav.sub-nav ul > li > a { padding-left: 20px; }
@@ -112,11 +112,56 @@
  * Iphone 6 landscape
  */
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : landscape) {
-    .film { width: 33.33333333% !important;
+    .film-main-grid { width: 33.33333333% !important; }
+    .ios-fix-padding { padding: 0 18px; }
+    nav.sub-nav .ios-fix-padding { padding: 0; }
+    nav.sub-nav ul > li > a { padding-left: 24px; }
+    .sub-nav.sub-nav-film .container-fluid { padding-left: 0; }
+    .films-form-right > div.first { height: 555px; }
+    .films-form-right > div, .films-form-left > div { height: 270px; }
+}
+
+/**
+ * iPad landscape
+ */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio: 1)  {
+    .ios-fix-padding { padding: 0 18px; }
+    nav.sub-nav .ios-fix-padding { padding: 0; }
+    nav.sub-nav ul > li > a { padding: 4px 8px; }
+    .navbar-collapse.collapse { padding-left: 8px; }
+    .sub-nav.sub-nav-film .container-fluid { padding-left: 0; }
+}
+
+/**
+ * iPad portrait
+ */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio: 1)  {
+    .ios-fix-padding { padding: 0 18px; }
+    nav.sub-nav .ios-fix-padding { padding: 0; }
+    .toggle-burger > span { display: inline; }
+    nav.sub-nav { padding: 10px 20px; }
+    .collapse.in {
+        height: auto !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse.collapse:not(.in) {
+        display: none !important;
+    }
+    .navbar-nav > li {
+        float: none;
+    }
+    nav.sub-nav li { margin: 0; }
+    nav.sub-nav ul > li > a { padding-left: 10px; }
+
+    .sub-nav.sub-nav-film .container-fluid { padding-left: 0; }
+    .films-form-right > div.first { height: 685px; }
+    .films-form-right > div, .films-form-left > div { height: 335px; }
 }
 
 @media screen and (max-width: 400px) {
-    .navbar-brand > img { padding: 5px; }
+    .navbar-brand > img { padding: 5px 5px 5px 0; }
     .film-wrapper {
         width: 170px;
         height: 270px;

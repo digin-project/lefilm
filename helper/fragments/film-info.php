@@ -1,7 +1,7 @@
 <article itemscope itemtype="http://schema.org/Movie" itemref="more-info" class="col-lg-8 col-md-7">
     <div class="player-container">
         <div class="row">
-            <div class="col-lg-8 col-md-8 col-sm-7 col-xs-12">
+            <div class="col-lg-8 col-md-9 col-sm-8 col-xs-12">
                 <div id="player" itemprop="video" itemprop="trailer" itemscope itemtype="http://schema.org/VideoObject">
                     <meta itemprop="duration" content="T1M33S">
                     <meta itemprop="thumbnail" content="">
@@ -13,7 +13,7 @@
                     <i class="fa fa-play"></i>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-5 col-xs-12 film-info">
+            <div class="col-lg-4 col-md-3 col-sm-4 col-xs-12 film-info">
                 <div class="rank" title="Note" itemprop="aggregateRating">
                     <i class="fa fa-star full"></i>
                     <i class="fa fa-star full"></i>
