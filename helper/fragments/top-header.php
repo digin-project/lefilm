@@ -1,5 +1,5 @@
 <nav class="navbar navbar-default" role="navigation">
-    <div class="container-fluid">
+    <div class="container-fluid __auto_padding">
         <div class="navbar-header">
             <a class="navbar-brand" alt="Accueil lefilm.fr" title="Lefilm.fr" href="/">
                 <img alt="lefilm.fr" src="/images/lefilmfr.png" height="35">

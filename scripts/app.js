@@ -1,5 +1,38 @@
 $(document).ready(function() {
 
+
+    (function() {
+        var calcGrid = function() {
+            var search = $(".nav.navbar-search label");
+            var wWidth = $(window).width();
+            var autopadding = $(".__auto_padding");
+            var CONTAINER_PADDING = 15;
+            var MARGIN;
+            var OFFSET = (wWidth < 640) ? 5 : 10;
+            var COEF = 1.5;
+
+            $(".film").each(function(i){
+                var _this = $(this);
+                var _child = $(this).find('.film-wrapper');
+
+                MARGIN = ( _this.width() - _child.width() ) / 2;
+                _child.width(_this.width() - OFFSET);
+                _child.height(_this.width() * COEF);
+                _child.attr('data-pos', i);
+            });
+
+            // autopadding.each(function(){
+            //     $(this).css("padding-left", CONTAINER_PADDING + MARGIN + (MARGIN / 2) );
+            //     $(this).css("padding-right", CONTAINER_PADDING + MARGIN + (MARGIN / 2) );
+            // });
+
+            return search.css("right", MARGIN);
+        };
+
+        calcGrid();
+        $(window).on("resize load", function() { calcGrid(); });
+    })();
+
     /**
      * Grid
      */

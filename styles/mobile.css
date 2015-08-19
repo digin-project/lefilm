@@ -82,7 +82,7 @@
     }
 
     .row.row-film { padding: 0; }
-    .film { margin: 20px 0 !important; }
+    .film { margin: 5px 0 !important; }
     .film:first-child { margin-bottom: 20px; }
     .film:last-child { margin-top: 20px; }
 
@@ -99,8 +99,16 @@
 }
 
 @media only screen and (max-width: 640px) and (orientation: landscape) {
+    .film { width: 33.33333333% !important; }
     .first { height: 500px !important; }
     .films-form-right > div:not(.first), .films-form-left > div:not(.first) { height: 243px !important; }
+}
+
+/**
+ * Iphone 6 landscape
+ */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : landscape) {
+    .film { width: 33.33333333% !important;
 }
 
 @media screen and (max-width: 400px) {

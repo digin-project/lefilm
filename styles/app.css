@@ -52,6 +52,8 @@ button, input, button:focus, button:active, input:focus { outline: none; }
     font-size: 15px;
     color: #fff;
     margin-bottom: 0;
+    margin-right: 0;
+    padding-right: 0;
 }
 
 .toggle-burger { cursor: pointer; }
@@ -180,6 +182,9 @@ nav.sub-nav li:last-child { margin-right: 0; }
 }
 
 .row-film {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
     padding: 5px 0;
     -webkit-animation: appear 400ms ease-out;
 }
