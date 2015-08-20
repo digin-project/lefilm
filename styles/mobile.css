@@ -119,6 +119,25 @@
     .sub-nav.sub-nav-film .container-fluid { padding-left: 0; }
     .films-form-right > div.first { height: 555px; }
     .films-form-right > div, .films-form-left > div { height: 270px; }
+
+    .navbar-brand > img { padding: 1px 1px 1px 0 !important; }
+    nav.sub-nav { padding: 10px 18px 10px 18px; }
+    .navbar-collapse { box-shadow: none; }
+    .navbar-toggle.burger { padding: 0; margin-top: 4px;}
+    .toggle-burger > span { top: 6px; }
+}
+
+/**
+ * iPhone 6 portrait
+ */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : portrait) {
+    .navbar-brand > img { padding: 1px 1px 1px 0 !important; }
+    nav.sub-nav { padding: 0 0 10px 0; }
+    .navbar-collapse { box-shadow: none; }
+    .navbar-toggle.burger { padding: 0; }
+    .toggle-burger > span { top: 11px; }
+
+    .sub-nav-film { padding: 10px 0 10px 0 !important; }
 }
 
 /**

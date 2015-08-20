@@ -1,6 +1,7 @@
 .sub-nav-film {
     color: #fff;
 }
+.sub-nav-film small { font-size: 12px; }
 .sub-nav-film h2 {
     margin: 0;
     font-weight: normal;

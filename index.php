@@ -13,14 +13,14 @@
 
     <header>
         <?php require "helper/fragments/top-header.php"; ?>
-        <nav class="sub-nav">
+        <nav class="sub-nav" data-toggle="collapse" data-target=".navbar-collapse">
             <div class="container-fluid ios-fix-padding">
                 <!-- <button type="button" class="navbar-toggle collapsed burger" data-toggle="collapse" data-target=".navbar-collapse">
                     <i class="fa fa-tags"></i>
                 </button> -->
                 <div class="toggle-burger">
-                    <span data-toggle="collapse" data-target=".navbar-collapse">Tous les films</span>
-                    <button type="button" class="navbar-toggle collapsed burger" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span>Tous les films</span>
+                    <button type="button" class="navbar-toggle collapsed burger">
                         <!-- <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>

@@ -237,6 +237,7 @@ nav.sub-nav li:last-child { margin-right: 0; }
 .film-infos span {
     color: rgba(255,255,255,.8);
     margin-right: 5px;
+    font-size: 14px;
 }
 
 .film-infos span:last-child { margin-right: 0; }
@@ -298,7 +299,7 @@ nav.sub-nav li:last-child { margin-right: 0; }
  */
 #cookies-container {
     width: 100%;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     background-color: rgba(0,0,0,.8);
     color: #fff;
@@ -308,6 +309,9 @@ nav.sub-nav li:last-child { margin-right: 0; }
     right: 0;
     z-index: 9999;
     overflow: hidden;
+}
+#cookies-container p {
+    margin: 0;
 }
 #cookies-container div {
     overflow: hidden;
@@ -323,7 +327,7 @@ nav.sub-nav li:last-child { margin-right: 0; }
     border: none;
     padding: 4px 6px;
     margin-right: 10px;
-    margin-top: 10px;
+    margin-top: 7px;
     border-radius: 3px;
 }
 #cookies-container button.c-more {

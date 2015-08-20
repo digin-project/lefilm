@@ -46,7 +46,6 @@ $(document).ready(function() {
         }
     }, ".film-wrapper");
 
-
     (function() {
         var input = ".navbar-search input";
         var inputValue = "Titre, acteur, réalisateur ...";
@@ -75,7 +74,6 @@ $(document).ready(function() {
              */
             input.attr('autofocus', true);
             $(document).on('click', label, function() { input.focus(); });
-            $(document).on('click', label, function() { input.blur(); });
 
             $(document).on('click mousedown', label, function() {
                 $(this).parent().css('background','#fff');
@@ -86,12 +84,15 @@ $(document).ready(function() {
 
             $(document).on('click mousedown', close, function() {
                 $('.nav.navbar-search').css('background','transparent');
-                $(label).addClass('show');
+                $(label).removeClass('hide');
                 $('.__toggle').toggleClass('show');
             });
         }
     }
 
+    /**
+     * Dummy lazy loading
+     */
     (function() {
         var dummy = $('.row-film:first-child').parent().html();
         var grid = $('#grid');
@@ -99,7 +100,6 @@ $(document).ready(function() {
         $('#load-more').on('click mousedown', function() {
             grid.append(dummy);
         });
-
     })();
 
 });
